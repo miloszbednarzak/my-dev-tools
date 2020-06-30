@@ -6,3 +6,7 @@
 
 .f : Convert to f-string
 	ANY   →   f$expr$
+
+.{ : Cover with brackets
+	ANY   →   {$expr$}
+	
