@@ -1,0 +1,8 @@
+.str : Cover with quotation mark
+	ANY   →   "$expr$"
+
+.fstr : Cover with f-string
+	ANY   →   f"$expr$"
+
+.f : Convert to f-string
+	ANY   →   f$expr$
